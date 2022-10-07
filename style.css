@@ -2175,7 +2175,7 @@ body .social a:hover {
 
 .containerproje .slide-container .slide .contentproje h3{
     font-size: 35px;
-    color: #f4a6fe;
+    color: #264549;
     font-family: 'Noto Sans', sans-serif;
 }
 
@@ -2191,19 +2191,19 @@ body .social a:hover {
 .containerproje .slide-container .slide .contentproje .bntproj{
     margin-top: 10px;
     display: inline-block;
-    background: #8932c3;
+    background: #264549;
     color: #ffffff;
     font-size: 17px;
     padding: 9px 40px;
     border-radius: 5px;
-    border: 2px solid #8932c3;
+    border: 2px solid #264549;
     font-family: 'Noto Sans', sans-serif;
     text-decoration: none;
 }
 
 .containerproje .slide-container .slide .contentproje .bntproj:hover{
-    background: #a355d7;
-    border: 2px solid #a355d7;
+    background: #dc6041;
+    border: 2px solid #dc6041;
     color: #ffffff;
 }
 
@@ -2245,7 +2245,7 @@ body .social a:hover {
     top:50%;
     transform: translateY(-50%);
     color: #ffffff;
-    background: #890873;
+    background: #264549;
     height: 50px;
     width: 50px;
     line-height: 50px;
@@ -2258,7 +2258,7 @@ body .social a:hover {
 
 .containerproje #prev:hover, 
 .containerproje #next:hover{
-    background: #ee7bd3;
+    background: #dc6041;
 }
 .containerproje #prev{
     left: 20px;
