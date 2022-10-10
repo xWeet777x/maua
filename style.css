@@ -567,8 +567,8 @@ a.button:hover {
 }
 
 .header-logo img {
-    width: 57px;
-    height: 122px;
+    width: 200px;
+    
 }
 
 .menu-holder {
@@ -927,7 +927,7 @@ img.logo-icon {
 
 .grid-item a.item-link:hover:after, 
 .grid-item a.item-link:hover .portfolio-text-holder {
-    opacity: 1;
+    opacity: 0.8;
 }
 
 .more-posts-portfolio-holder {
@@ -941,7 +941,7 @@ img.logo-icon {
 
 .more-posts-portfolio-holder.hide {
     visibility: hidden;
-    opacity: 0;
+    opacity: 0.5;
     pointer-events: none;
     cursor: default;
 }
@@ -973,7 +973,7 @@ body .site-wrapper .more-posts-portfolio-loading {
 
 .portfolio-load-content-holder.show {
     transform: translateY(0);
-    opacity: 1;
+    opacity: 0;
 }
 
 .portfolio-load-content-holder.show.viceversa {
@@ -1002,7 +1002,7 @@ body .site-wrapper .more-posts-portfolio-loading {
 
 .grid-item a.item-link.loading-portfolio-item-content:after, 
 .ajax-portfolio.loading-portfolio-item-content .portfolio-text-holder {
-    opacity: 1;
+    opacity: 0.5;
 }
 
 .close-icon {
@@ -2172,6 +2172,9 @@ body .social a:hover {
 }
 }
 
+/* ===================================
+    16. Banner CSS
+====================================== */
 
 .containerproje .slide-container .slide .contentproje h3{
     font-size: 35px;
@@ -2209,6 +2212,7 @@ body .social a:hover {
 
 .containerproje .slide-container{
     display: none;
+    height: 850px;
 }
 
 .containerproje .slide-container.active{
@@ -2220,7 +2224,7 @@ body .social a:hover {
     background-size:cover;
     background-repeat: no-repeat;
     width: 100vw;
-    height: 100vh;
+    height: 50vh;
 }
 
 .containerproje .slide-container:nth-child(2) .slide{
@@ -2228,7 +2232,7 @@ body .social a:hover {
     background-size:cover;
     background-repeat: no-repeat;
     width: 100vw;
-    height: 100vh;
+    height: 50vh;
 }
 
 .containerproje .slide-container:nth-child(3) .slide{
@@ -2236,7 +2240,7 @@ body .social a:hover {
     background-size:cover;
     background-repeat: no-repeat;
     width: 100vw;
-    height: 100vh;
+    height: 90vh;
 }
 
 .containerproje #prev, 
