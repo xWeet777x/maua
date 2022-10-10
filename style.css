@@ -2088,8 +2088,8 @@ footer ul {
 }
 
 .footer-logo img {
-    width: 57px;
-    height: 122px;
+    
+    height: 100px;
     margin-bottom: 70px;
 }
 
@@ -2178,16 +2178,20 @@ body .social a:hover {
 
 .containerproje .slide-container .slide .contentproje h3{
     font-size: 35px;
-    color: #264549;
+    color: #fff;
     font-family: 'Noto Sans', sans-serif;
+    text-shadow: 0px 0px 2px #264549;
+        
 }
 
 .containerproje .slide-container .slide .contentproje p{
-    font-size: 16px;
+    font-size: 20px;
     color: #ffffff;
     font-family: 'Noto Sans', sans-serif;
     width: 40%;
     height: 10%;
+     text-shadow: 0px 0px 2px #264549;
+
 
 }
 
