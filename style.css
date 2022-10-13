@@ -561,13 +561,13 @@ a.button:hover {
 .header-logo {
     line-height: 0;
     font-size: 0;
-    top: 0;
+    top: 9px;
     float: left;
     position: absolute;
 }
 
 .header-logo img {
-    width: 200px;
+    width: 150px;
     
 }
 
@@ -1401,6 +1401,16 @@ p.milestone-text {
     11. About Section CSS
 ====================================== */
 
+#about {
+ 
+    background-color: #031e23;
+}
+
+#about h2.entry-title,
+#about p.page-description {
+    color: #fff;
+}
+
 ul.timeline-holder {
     margin: 0;
     padding: 0 0 0 40px;
@@ -1419,7 +1429,7 @@ li.timeline-event:last-child {
 }
 
 li.timeline-event:hover span.timeline-circle:before {
-    background-color: #dc6041;
+    background-color: #fff;
 }
 
 span.timeline-circle {
@@ -1460,7 +1470,7 @@ span.timeline-circle:after
     position: absolute;
     left: -100px;
     top: 7px;
-    color: #031e23;
+    color: #fff;
     font-weight: 700;
 }
 
@@ -2181,16 +2191,22 @@ body .social a:hover {
     color: #fff;
     font-family: 'Noto Sans', sans-serif;
     text-shadow: 0px 0px 2px #264549;
-        
+    background: #264549;
+    /* background: rgba(255, 255, 255, 0.3); 30% de opacidade */
+    padding: 10px;
+    margin-bottom:;
+    width: 125px;        
 }
 
 .containerproje .slide-container .slide .contentproje p{
     font-size: 20px;
-    color: #ffffff;
+    color: #fff;
     font-family: 'Noto Sans', sans-serif;
     width: 40%;
     height: 10%;
-     text-shadow: 0px 0px 2px #264549;
+    text-shadow: 0px 0px 2px #264549;
+    background: #264549;
+    padding: 10px;
 
 
 }
@@ -2198,20 +2214,20 @@ body .social a:hover {
 .containerproje .slide-container .slide .contentproje .bntproj{
     margin-top: 10px;
     display: inline-block;
-    background: #264549;
+    background: #dc6041;
     color: #ffffff;
     font-size: 17px;
     padding: 9px 40px;
-    border-radius: 5px;
-    border: 2px solid #264549;
+    border-radius:;
+    border: 2px solid #dc6041;
     font-family: 'Noto Sans', sans-serif;
     text-decoration: none;
 }
 
 .containerproje .slide-container .slide .contentproje .bntproj:hover{
-    background: #dc6041;
+    background: #fff;
     border: 2px solid #dc6041;
-    color: #ffffff;
+    color: #dc6041;
 }
 
 .containerproje .slide-container{
