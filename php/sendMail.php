@@ -2,10 +2,10 @@
 
 include_once (dirname(dirname(__FILE__)) . '/config.php');
 
-//Initial response is NULL
+//Resposta inicial NULL
 $response = null;
 
-//Initialize appropriate action and return as HTML response
+//Inicialize a ação apropriada e retorne como resposta HTML
 if (isset($_POST["action"])) {
     $action = $_POST["action"];
 
@@ -16,14 +16,14 @@ if (isset($_POST["action"])) {
                     $message = $_POST["message"];
                     $message .= "<br/><br/>";                                        
 
-                    $response = (SendEmail($message, $_POST["subject"], $_POST["name"], $_POST["email"], $email)) ? 'Message Sent' : "Sending Message Failed";
+                    $response = (SendEmail($message, $_POST["subject"], $_POST["name"], $_POST["email"], $email)) ? 'Mensagem enviada' : "Falha ao enviar mensagem";
                 } else {
-                    $response = "Sending Message Failed";
+                    $response = "Falha ao enviar mensagem";
                 }
             }
             break;
         default: {
-                $response = "Invalid action is set! Action is: " . $action;
+                $response = "Ação inválida está definida! Ação é: " . $action;
             }
     }
 }

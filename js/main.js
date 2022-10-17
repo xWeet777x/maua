@@ -364,22 +364,22 @@
                         switch (xhr.status)
                         {
                             case "301":
-                                error = "Redirection Error!";
+                                error = "Erro de redirecionamento!";
                                 break;
                             case "307":
-                                error = "Error, temporary server redirection!";
+                                error = "Erro, redirecionamento temporário do servidor!";
                                 break;
                             case "400":
-                                error = "Bad request!";
+                                error = "Pedido ruim!";
                                 break;
                             case "404":
-                                error = "Page not found!";
+                                error = "Página não encontrada!";
                                 break;
                             case "500":
-                                error = "Server is currently unavailable!";
+                                error = "O servidor está indisponível no momento!";
                                 break;
                             default:
-                                error = "Unespected error, please try again later.";
+                                error = "Erro não especificado, tente novamente mais tarde.";
                         }
                         if (error) {
                             alert(error);
@@ -388,7 +388,7 @@
                 });
             } else
             {
-                alert('Your email is not in valid format');
+                alert('Seu e-mail não está em formato válido');
             }
         });
     }

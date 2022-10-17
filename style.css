@@ -822,10 +822,10 @@ img.logo-icon {
 
 
 /* ===================================
-    5. Portfolio Section CSS
+    5. Seção sobre CSS
 ====================================== */
 
-#portfolio {
+#sobre {
     background-image: url(images/dots.png);
     background-repeat: no-repeat;
     background-position: calc(50% + 430px) 0;
@@ -1032,10 +1032,10 @@ body .site-wrapper .more-posts-portfolio-loading {
 
 
 /* ===================================
-    6. Clients Section CSS
+    6. Seção de projetos CSS
 ====================================== */
 
-#clients {
+#projetos {
     background-color: #031e23;
 }
 
