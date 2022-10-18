@@ -38,29 +38,40 @@
                         <nav id="header-main-menu">
                             <ul class="main-menu sm sm-clean">
                                 <li>
-                                    <a href="#home">HOME</a>
+                                    <a href="#home" class="tdr">HOME</a>
                                 </li>
                                 
                                 <li>
-                                    <a href="#sobre">SOBRE A MAUÁ</a>
+                                    <a href="#sobre" class="tdr">SOBRE A MAUÁ</a>
                                 </li>
                                 <li>
-                                    <a href="#projetos">PROJETOS</a>
+                                    <a href="#projetos" class="tdr">PROJETOS</a>
                                 </li>
                                 
                                 <li>
-                                    <a href="#news">NOTÍCIAS</a>
+                                    <a href="#news" class="tdr">NOTÍCIAS</a>
                                 </li>
                                 <li>
-                                    <a href="#about">NOSSOS NEGÓCIOS</a>
+                                    <a href="#nossos_negocios" class="tdr">NOSSOS NEGÓCIOS</a>
                                 </li>
                                 
                                 <li>
-                                    <a href="#contact">CONTATO</a>
+                                    <a href="#contact" class="tdr">CONTATO</a>
                                 </li>
+                                <select onchange="idioma(this)">
+                                    <option value="pt-br" selected="selected">Português (Brasil)</option>
+                                    <option value="en-us">English (US)</option>
+                                    <option value="fr">Español</option>
+                                </select>
+                                <style> select {
+                                margin:6px 0 1px;
+                                padding:5px 10px
+                                }
+                                </style>
                             </ul>
                         </nav>
                     </div>
+                    
                     <div class="clear"></div>
                 </div>
             </header>
@@ -92,19 +103,19 @@
                     <div class="slide-container active">
                         <div class="slide">
                             <div class="contentproje">
-                                <h3>SOLAR</h3>
-                                <p>A energia solar está emergindo como uma das tecnologias de geração de energia de menor custo, graças à queda do custo dos painéis fotovoltaicos. As empresas estão adotando cada vez mais a energia solar por meio de Contratos de Aquisição de Energia (PPAs) porque podem acessar energia resiliente e sustentável, que oferece estabilidade de preços a longo prazo.
+                                <h3 class="tdr">SOLAR</h3>
+                                <p class="tdr">A energia solar está emergindo como uma das tecnologias de geração de energia de menor custo, graças à queda do custo dos painéis fotovoltaicos. As empresas estão adotando cada vez mais a energia solar por meio de Contratos de Aquisição de Energia (PPAs) porque podem acessar energia resiliente e sustentável, que oferece estabilidade de preços a longo prazo.
                                 </p>
-                                <a href="solar.html" class="bntproj">Saiba mais</a>
+                                <a href="solar.html" class="bntproj tdr">Saiba mais</a>
                             </div>
                         </div>
                     </div>
                     <div class="slide-container">
                         <div class="slide">
                             <div class="contentproje">
-                                <h3>EÓLICA</h3>
-                                <p>Energia eólica é a eletricidade gerada pela força do vento. Ela responde por 8,6% da energia produzida no Brasil, ganhando cada vez mais espaço na matriz elétrica do país.</p>
-                                <a href="eolica.html" class="bntproj">Saiba mais</a>
+                                <h3 class="tdr">EÓLICA</h3>
+                                <p class="tdr">Energia eólica é a eletricidade gerada pela força do vento. Ela responde por 8,6% da energia produzida no Brasil, ganhando cada vez mais espaço na matriz elétrica do país.</p>
+                                <a href="eolica.html" class="bntproj tdr">Saiba mais</a>
                             </div>
                         </div>
                     </div>
@@ -120,7 +131,7 @@
                     <div class="section-wrapper block content-1170 center-relative">
                         <div class="page-title-holder">
                             <p class="up-title-text">01</p>
-                            <h2 class="entry-title">NOSSA EMPRESSA</h2>
+                            <h2 class="entry-title tdr">NOSSA EMPRESSA</h2>
                             <p class="page-description"> </p>
                         </div>
                         <div class="content-wrapper">
@@ -128,8 +139,8 @@
                                 <div class="service-holder bottom-50">
                                     <p class="service-num">   </p>
                                     <div class="service-txt">
-                                        <h4>NOSSA MISSÃO</h4>
-                                        <p>Ser referência no mercado de energia limpa e sustentável.</p>
+                                        <h4 class="tdr">NOSSA MISSÃO</h4>
+                                        <p class="tdr">Ser referência no mercado de energia limpa e sustentável.</p>
                                     </div>
                                 </div>
                             </div>
@@ -137,12 +148,13 @@
                                 <div class="service-holder bottom-50">
                                     <p class="service-num">   </p>
                                     <div class="service-txt">
-                                        <h4>NOSSOS VALORES</h4>
-                                        <p>
-                                            • Compromisso efetivo e duradouro com o cliente. <br>
-                                            • Ética profissional e transparência nos processos.<br>
-                                            • Valorização do ser humano e da vida.<br>
-                                        • Gerar valor social aos nossos colaboradores.</p>
+                                        <h4 class="tdr">NOSSOS VALORES</h4>
+                                        <p class="tdr">
+                                            <p class="tdr">• Compromisso efetivo e duradouro com o cliente. </p>
+                                            <p class="tdr">• Ética profissional e transparência nos processos.</p>
+                                            <p class="tdr">• Valorização do ser humano e da vida.</p>
+                                            <p class="tdr">• Gerar valor social aos nossos colaboradores.</p>
+                                        </p>
                                     </div>
                                 </div>
                             </div>
@@ -150,13 +162,13 @@
                                 <div class="service-holder bottom-50">
                                     <p class="service-num">   </p>
                                     <div class="service-txt">
-                                        <h4>MERCADOS </h4>
-                                        <p>
-                                            • Energia solar<br>
-                                            • Energia Eólica<br>
-                                            • Biomassa<br>
-                                            • Biodiesel<br>
-                                            • Gás Natural<br>
+                                        <h4 class="tdr">MERCADOS </h4>
+                                        <p class="tdr">
+                                            <p class="tdr">• Energia solar</p>
+                                            <p class="tdr">• Energia Eólica</p>
+                                            <p class="tdr">• Biomassa</p>
+                                            <p class="tdr">• Biodiesel</p>
+                                            <p class="tdr">• Gás Natural</p>
                                         </p>
                                     </div>
                                 </div>
@@ -174,7 +186,7 @@
                     <div class="section-wrapper block content-1170 center-relative">
                         <div class="page-title-holder">
                             <p class="up-title-text">02</p>
-                            <h2 class="entry-title">QUEM SOMOS</h2>
+                            <h2 class="entry-title tdr">QUEM SOMOS</h2>
                             <!-- <p class="page-description">CHECK OUR WORK</p>-->
                         </div>
                         <div class="content-wrapper">
@@ -376,7 +388,7 @@
                 </div>
                 <!-- Skills Section -->
                 
-                <div id="about" class="section">
+                <div id="nossos_negocios" class="section">
                     <div class="section-wrapper block content-1170 center-relative">
                         
                         <div class="page-title-holder">
@@ -991,7 +1003,8 @@
         </div>
     </footer>
 </div>
-<!--Load JavaScript-->
+<!--carregar JavaScript-->
+<script src="src/traducao.min.js"></script>
 <script src="js/jquery.js"></script>
 <script src="js/jquery.sticky.js"></script>
 <script src='js/imagesloaded.pkgd.js'></script>
@@ -1000,5 +1013,98 @@
 <script src='js/isotope.pkgd.js'></script>
 <script src='js/owl.carousel.min.js'></script>
 <script src='js/main.js'></script>
+
+<script>
+            function idioma(sel) {
+                switch (sel.value) {
+                    case "pt-br":
+                        conteudo = {
+                            "QUEM SOMOS": "QUEM SOMOS", 
+                            "NOSSA EMPRESSA": "NOSSA EMPRESSA",
+                            "NOSSA MISSÃO": "NOSSA MISSÃO",
+                            "NOSSOS VALORES": "NOSSOS VALORES",
+                            "MERCADOS": "MERCADOS",
+                            "Ser referência no mercado de energia limpa e sustentável.": "Ser referência no mercado de energia limpa e sustentável.",
+                            "• Compromisso efetivo e duradouro com o cliente.": "MARKETS",
+                            "• Ética profissional e transparência nos processos.": "MARKETS",
+                            "• Valorização do ser humano e da vida.": "MARKETS",
+                            "• Gerar valor social aos nossos colaboradores.": "MARKETS",
+                            "• Energia solar": "• Energia solar",
+                            "• Energia Eólica": "• Energia Eólica",
+                            "• Biomassa": "• Biomassa",
+                            "• Biodiesel": "• Biodiesel",
+                            "• Gás Natural": "• Gás Natural",
+                            "SOLAR": "SOLAR", 
+                            "EÓLICA": "EÓLICA", 
+                            "Olá, Mundo": "Olá, Mundo", 
+                            "Mais detalhes": "Mais detalhes", 
+                            "Ficou interessado?": "Ficou interessado?",
+                            "Tradução apenas com % sem o uso de % e outros %": "Tradução apenas com % sem o uso de % e outros %",
+                            "Saiba mais": "Saiba mais",
+                            "A energia solar está emergindo como uma das tecnologias de geração de energia de menor custo, graças à queda do custo dos painéis fotovoltaicos. As empresas estão adotando cada vez mais a energia solar por meio de Contratos de Aquisição de Energia (PPAs) porque podem acessar energia resiliente e sustentável, que oferece estabilidade de preços a longo prazo.": "Saiba",
+                            "Energia eólica é a eletricidade gerada pela força do vento. Ela responde por 8,6% da energia produzida no Brasil, ganhando cada vez mais espaço na matriz elétrica do país.": "Saiba"
+                        };
+                        break;
+                    case "en-us":
+                        conteudo = {
+                            "QUEM SOMOS": "WHO WE ARE", 
+                            "NOSSA EMPRESSA": "OUR COMPANY",
+                            "NOSSA MISSÃO": "OUR MISSION",
+                            "NOSSOS VALORES": "OUR VALUES",
+                            "MERCADOS": "MARKETS",
+                            "Ser referência no mercado de energia limpa e sustentável.": "To be a reference in the clean and sustainable energy market.",
+                            "• Compromisso efetivo e duradouro com o cliente.": "• Effective and lasting commitment to the customer.",
+                            "• Ética profissional e transparência nos processos.": "• Professional ethics and transparency in processes.",
+                            "• Valorização do ser humano e da vida.": "• Valuing human beings and life.",
+                            "• Gerar valor social aos nossos colaboradores.": "• Generate social value for our employees.",
+                            "• Energia solar": "• Solar energy",
+                            "• Energia Eólica": "• Wind Energy",
+                            "• Biomassa": "• Biomass",
+                            "• Biodiesel": "• Biodiesel",
+                            "• Gás Natural": "• Natural gas",
+                            "SOLAR": "SOLAR", 
+                            "EÓLICA": "WIND POWER",
+                            "Olá, Mundo": "Hello, World", 
+                            "Mais detalhes": "More details", 
+                            "Ficou interessado?": "Became interested?",
+                            "Tradução apenas com % sem o uso de % e outros %": "Translate with only % without use % and another %",
+                            "Saiba mais": "More",
+                            "A energia solar está emergindo como uma das tecnologias de geração de energia de menor custo, graças à queda do custo dos painéis fotovoltaicos. As empresas estão adotando cada vez mais a energia solar por meio de Contratos de Aquisição de Energia (PPAs) porque podem acessar energia resiliente e sustentável, que oferece estabilidade de preços a longo prazo.": "Solar power is emerging as one of the lowest cost power generation technologies thanks to the falling cost of photovoltaic panels. Companies are increasingly embracing solar energy through Power Purchase Agreements (PPAs) because they can access resilient, sustainable energy that offers long-term price stability.",
+                            "Energia eólica é a eletricidade gerada pela força do vento. Ela responde por 8,6% da energia produzida no Brasil, ganhando cada vez mais espaço na matriz elétrica do país.": "Wind energy is electricity generated by the force of the wind. It accounts for 8.6% of the energy produced in Brazil, gaining more and more space in the country's electrical matrix."
+                        };
+                        break;
+                    case "fr":
+                        conteudo = {
+                            "QUEM SOMOS": "QUIENES SOMOS", 
+                            "NOSSA EMPRESSA": "NUESTRA EMPRESA",
+                            "NOSSA MISSÃO": "NUESTRA MISIÓN",
+                            "NOSSOS VALORES": "NUESTROS VALORES",
+                            "MERCADOS": "MERCADOS",
+                            "Ser referência no mercado de energia limpa e sustentável.": "Ser un referente en el mercado de las energías limpias y sostenibles.",
+                            "• Compromisso efetivo e duradouro com o cliente.": "• Compromiso efectivo y duradero con el cliente.",
+                            "• Ética profissional e transparência nos processos.": "• Ética profesional y transparencia en los procesos.",
+                            "• Valorização do ser humano e da vida.": "• Valoración del ser humano y de la vida.",
+                            "• Gerar valor social aos nossos colaboradores.": "• Generar valor social para nuestros empleados.",
+                            "• Energia solar": "• Energía solar",
+                            "• Energia Eólica": "• Energía eólica",
+                            "• Biomassa": "• Biomasa",
+                            "• Biodiesel": "• Biodiésel",
+                            "• Gás Natural": "• Gas natural",
+                            "SOLAR": "SOLAR", 
+                            "EÓLICA": "EÓLICA",
+                            "Olá, Mundo": "Bonjour Le Monde", 
+                            "Mais detalhes": "Plus de détails", 
+                            "Ficou interessado?": "Se sont intéressés?",
+                            "Tradução apenas com % sem o uso de % e outros %": "Traduction uniquement avec % et sans utiliser % d'autres %",
+                            "Saiba mais": "Sepa mas",
+                            "A energia solar está emergindo como uma das tecnologias de geração de energia de menor custo, graças à queda do custo dos painéis fotovoltaicos. As empresas estão adotando cada vez mais a energia solar por meio de Contratos de Aquisição de Energia (PPAs) porque podem acessar energia resiliente e sustentável, que oferece estabilidade de preços a longo prazo.": "La energía solar está emergiendo como una de las tecnologías de generación de energía de menor costo gracias a la caída del costo de los paneles fotovoltaicos. Las empresas están adoptando cada vez más la energía solar a través de acuerdos de compra de energía (PPA) porque pueden acceder a energía resistente y sostenible que ofrece estabilidad de precios a largo plazo.",
+                             "Energia eólica é a eletricidade gerada pela força do vento. Ela responde por 8,6% da energia produzida no Brasil, ganhando cada vez mais espaço na matriz elétrica do país.": "La energía eólica es la electricidad generada por la fuerza del viento. Representa el 8,6% de la energía producida en Brasil, ganando cada vez más espacio en la matriz eléctrica del país."
+                        };
+                        break;
+                }
+                Tradutor(conteudo);
+            }
+        </script>
+
 </body>
 </html>
